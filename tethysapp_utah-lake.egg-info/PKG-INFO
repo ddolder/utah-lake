@@ -1,9 +1,9 @@
 Metadata-Version: 1.0
-Name: tethysapp-soa-viewbuild
+Name: tethysapp-utah-lake
 Version: 0.0.1
-Summary: "This is an app to simulate the function viewshed in the city of New York"
+Summary: "Utah Lake Water Parameters"
 Home-page: UNKNOWN
-Author: SOA
+Author: ddolder
 Author-email: UNKNOWN
 License: MIT
 Description: UNKNOWN

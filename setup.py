@@ -2,7 +2,7 @@ from setuptools import setup, find_namespace_packages
 from tethys_apps.app_installation import find_resource_files
 
 # -- Apps Definition -- #
-app_package = 'soa_viewbuild'
+app_package = 'utah-lake'
 release_package = 'tethysapp-' + app_package
 
 # -- Python Dependencies -- #
@@ -17,10 +17,10 @@ resource_files += find_resource_files('tethysapp/' + app_package + '/workspaces'
 setup(
     name=release_package,
     version='0.0.1',
-    description='"This is an app to simulate the function viewshed in the city of New York"',
+    description='"Utah Lake Water Parameters"',
     long_description='',
     keywords='',
-    author='SOA',
+    author='ddolder',
     author_email='',
     url='',
     license='MIT',
