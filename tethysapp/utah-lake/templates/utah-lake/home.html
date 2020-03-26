@@ -1,0 +1,15 @@
+{% extends "utah-lake/base.html" %}
+{% load tethys_gizmos static %}
+
+{% block app_content %}
+  {% gizmo utah-lake_map %}
+{% endblock %}
+
+{% block app_actions %}
+  {% gizmo add_station_button %}
+{% endblock %}
+
+{% block styles %}
+    {{ block.super }}
+    <link href="{% static 'utah-lake/css/map.css' %}" rel="stylesheet"/>
+{% endblock %}

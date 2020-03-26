@@ -1,0 +1,7 @@
+{% extends "utah-lake/base.html" %}
+{% load tethys_gizmos %}
+
+{% block app_content %}
+  <h1>Stations</h1>
+  {% gizmo stations_table %}
+{% endblock %}
